@@ -12,7 +12,7 @@ dotenv.config();
 
 // const dburl="mongodb+srv://team7:ltkGPJWOy8wvjUZZ@cluster0.6zf4jvu.mongodb.net/social?retryWrites=true&w=majority";
 
-const dburl="mongodb://team7:ltkGPJWOy8wvjUZZ@ac-17okmoc-shard-00-00.6zf4jvu.mongodb.net:27017,ac-17okmoc-shard-00-01.6zf4jvu.mongodb.net:27017,ac-17okmoc-shard-00-02.6zf4jvu.mongodb.net:27017/?ssl=true&replicaSet=atlas-p2496o-shard-0&authSource=admin&retryWrites=true&w=majority"
+const dburl="mongodb://team7:ltkGPJWOy8wvjUZZ@ac-17okmoc-shard-00-00.6zf4jvu.mongodb.net:27017,ac-17okmoc-shard-00-01.6zf4jvu.mongodb.net:27017,ac-17okmoc-shard-00-02.6zf4jvu.mongodb.net:27017/social?ssl=true&replicaSet=atlas-p2496o-shard-0&authSource=admin&retryWrites=true&w=majority"
 const connectParms= {
 
     useNewUrlParser : true,
@@ -48,7 +48,7 @@ app.use("/api/auth", authRoute)
 
 // app.get("/", (req, res)=> {
 
-//     res.send("welcome to home page")
+//     res.send("welcome to home page")b
 // })
 
 
